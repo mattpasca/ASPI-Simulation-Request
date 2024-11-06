@@ -133,8 +133,8 @@ for i in range(veicoli_lista[0].numAssi, veicoli_lista[0].numAssi + veicoli_list
 # II. Compilazione online
 
 # Dati di accesso aggiornati al 18/10/2024
-USERNAME = "90513786"
-PASSWORD = "Martellini6++"
+USERNAME = "your_username"
+PASSWORD = "your_password"
 
 # Step 1: Set up the WebDriver
 chrome_options = Options()
