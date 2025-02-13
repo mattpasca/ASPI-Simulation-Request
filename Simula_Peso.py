@@ -116,7 +116,7 @@ def estrai_convoglio(file_xml):
 
 file_xml = 'trasmissione.xml'
 assi_lista = estrai_assi(file_xml)
-print (*assi_lista)
+print(type(assi_lista[0].tipo))
 veicoli_lista = estrai_veicoli(file_xml)
 convoglio_lista = estrai_convoglio(file_xml)
 
@@ -132,9 +132,9 @@ for i in range(veicoli_lista[0].numAssi, veicoli_lista[0].numAssi + veicoli_list
 
 # II. Compilazione online
 
-# Dati di accesso aggiornati al 18/10/2024
-USERNAME = "your_username"
-PASSWORD = "your_password"
+# Dati di accesso aggiornati al 17/10/2024
+USERNAME = "90513786"
+PASSWORD = "Martellini6++"
 
 # Step 1: Set up the WebDriver
 chrome_options = Options()
@@ -385,5 +385,3 @@ route_start_button.click()
 input()  # Wait for user input before proceeding
 
 exit()
-
-
